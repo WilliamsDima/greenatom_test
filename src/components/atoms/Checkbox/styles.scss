@@ -1,0 +1,28 @@
+@import '../../../assets/styles/colors.scss';
+
+.checkbox-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $main;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  cursor: pointer;
+
+  input {
+    display: none;
+
+    &:checked + .icon-done {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  .icon-done {
+    color: $main;
+    font-size: 20px;
+    opacity: 0;
+    visibility: hidden;
+  }
+}

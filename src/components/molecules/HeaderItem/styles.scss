@@ -1,0 +1,12 @@
+@import '../../../assets/styles/colors.scss';
+@import '../../../assets/styles/typography.scss';
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  .item-price {
+    @extend %price;
+  }
+}

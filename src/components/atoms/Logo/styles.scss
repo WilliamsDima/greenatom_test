@@ -1,0 +1,10 @@
+@import '../../../assets/styles/colors.scss';
+
+.logo {
+  .icon {
+    color: $main;
+    font-size: 6rem;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px $black;
+  }
+}

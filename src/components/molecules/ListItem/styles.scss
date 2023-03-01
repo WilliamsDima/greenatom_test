@@ -1,0 +1,14 @@
+@import '../../../assets/styles/colors.scss';
+@import '../../../assets/styles/styles.scss';
+
+.list-item {
+  width: 100%;
+  background-color: $white;
+  @extend %shadowBlock;
+  border-radius: 5px;
+  padding: 2rem;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+}

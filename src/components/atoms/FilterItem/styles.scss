@@ -1,0 +1,21 @@
+@import '../../../assets/styles/colors.scss';
+@import '../../../assets/styles/typography.scss';
+
+.filter-item {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba($main, 0.1);
+  }
+
+  p {
+    margin-left: 1rem;
+    @extend %p1;
+  }
+}

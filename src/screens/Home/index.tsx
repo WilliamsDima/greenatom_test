@@ -1,10 +1,11 @@
-import React from 'react'
+import HomeTemplate from 'src/components/templates/Home'
+import Layout from '../Layout'
 
 const Home = () => {
   return (
-    <div className="home">
-      <p>Home</p>
-    </div>
+    <Layout>
+      <HomeTemplate />
+    </Layout>
   )
 }
 

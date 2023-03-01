@@ -1,0 +1,16 @@
+@import '../../../assets/styles/colors.scss';
+@import '../../../assets/styles/styles.scss';
+
+.main-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .list-item {
+    margin-bottom: 2rem;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+}
