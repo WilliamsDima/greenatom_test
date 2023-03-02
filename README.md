@@ -7,7 +7,27 @@
 [![typescript](https://img.shields.io/static/v1?label=typescript&message=4.8.4&color=3178C6&style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![node](https://img.shields.io/static/v1?label=node&message=16.10.0&color=026E00&style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/)
 [![react](https://img.shields.io/static/v1?label=react&message=18.2.0&color=61DBFB&style=for-the-badge&logo=react&logoColor=white)](https://ru.reactjs.org/)
+[![mobx](https://img.shields.io/static/v1?label=mobx&message=6.8.0&color=FF7102&style=for-the-badge&logo=mobx&logoColor=white)](https://mobx.js.org/)
+[![mst](https://img.shields.io/static/v1?label=mst&message=5.1.7&color=FF7102&style=for-the-badge&logo=mst&logoColor=white)](https://mobx-state-tree.js.org/)
 [![sass](https://img.shields.io/static/v1?label=sass&message=7.0.3&color=BF4080&style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)
+
+---
+
+## Задание
+
+Условия
+
+- Используй React, MobX-State-Tree
+- Используй TS
+- Работоспособность в актуальной версии Google Chrome
+
+Реализовать список с фильтрацией согласно макету.
+
+---
+
+## Пояснения разработчика
+
+Я работал с MST первый раз :), поэтому не знаю как, что делается по "феншую"
 
 ---
 

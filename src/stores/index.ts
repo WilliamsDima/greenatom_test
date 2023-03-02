@@ -16,8 +16,5 @@ const RootStore = types
   })
 
 export type RootInstance = Instance<typeof RootStore>
-export const RootStoreContext = createContext<null | RootInstance>(null)
-
-export const Provider = RootStoreContext.Provider
 
 export default RootStore

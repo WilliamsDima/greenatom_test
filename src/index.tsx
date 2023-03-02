@@ -2,7 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.scss'
 import App from './App'
-import RootStore, { Provider } from './stores'
+import RootStore from './stores'
+import { Provider } from './context/store'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
