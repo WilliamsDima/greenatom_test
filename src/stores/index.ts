@@ -1,6 +1,5 @@
 import { types, Instance } from 'mobx-state-tree'
 import MainStore from './MainStore'
-import { createContext } from 'react'
 import { listData } from 'src/api/listData'
 import { paramsFilter } from 'src/api/data'
 
