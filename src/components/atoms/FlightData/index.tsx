@@ -1,10 +1,9 @@
 import './styles.scss'
 import { FC } from 'react'
-import CompanyName from '../CompanyName'
 
 type Flight = {
-  top: string
-  bottom: string
+  top: string | number
+  bottom: string | number
 }
 
 const FlightData: FC<Flight> = ({ top, bottom }) => {

@@ -13,7 +13,7 @@ const ListItem: FC<Item> = memo(({ item }) => {
     <li className="list-item">
       <HeaderItem companyName={item.companyName} price={item.price} />
       {item?.flights?.map((f) => {
-        return <FlightInfo flight={f} />
+        return <FlightInfo flight={f} key={f.id} />
       })}
     </li>
   )

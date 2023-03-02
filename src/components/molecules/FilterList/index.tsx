@@ -1,12 +1,26 @@
 import FilterItem from 'src/components/atoms/FilterItem'
-import { paramsFilter } from './data'
+import { useMst } from 'src/hooks/useMst'
 import './styles.scss'
 
 const FilterList = () => {
+  const { main } = useMst()
+
+  const filterHandler = (value: number) => {
+    // console.log('values', value)
+
+    main.toggle(value)
+  }
+
   return (
     <ul className="filter-params">
-      {paramsFilter.map((item) => {
-        return <FilterItem item={item} key={item.value} />
+      {main.filter.map((item) => {
+        return (
+          <FilterItem
+            item={item}
+            key={item.value.toString()}
+            filterHandler={filterHandler}
+          />
+        )
       })}
     </ul>
   )

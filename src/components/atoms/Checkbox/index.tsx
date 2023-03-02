@@ -1,6 +1,6 @@
 import './styles.scss'
 import { MdDone } from 'react-icons/md'
-import { FC, ChangeEvent } from 'react'
+import { FC } from 'react'
 
 interface ICheckbox {
   alt: string
@@ -9,7 +9,7 @@ interface ICheckbox {
 }
 
 const Checkbox: FC<ICheckbox> = ({ alt, checked, onChange }) => {
-  const onChangeHandler = (event: ChangeEvent<HTMLInputElement>) => {
+  const onChangeHandler = () => {
     onChange && onChange(!checked)
   }
 

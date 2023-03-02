@@ -1,27 +1,27 @@
 export const paramsFilter = [
   {
     text: 'Все',
-    value: 'all',
-    checked: false,
+    value: -1,
+    checked: true,
   },
   {
     text: 'Без пересадок',
-    value: 'without-transfers',
+    value: 0,
     checked: false,
   },
   {
     text: '1 пересадка',
-    value: '1-transfer',
+    value: 1,
     checked: false,
   },
   {
     text: '2 пересадки',
-    value: '2-transfer',
+    value: 2,
     checked: false,
   },
   {
     text: '3 пересадки',
-    value: '3-transfer',
+    value: 3,
     checked: false,
   },
 ]

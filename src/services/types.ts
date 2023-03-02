@@ -1,21 +1,23 @@
 export type TFilterItem = {
   text: string
-  value: string
+  value: number
   checked: boolean
 }
 
 export interface IFlight {
+  id: string
   path: string
   timePath: string
   flightTime: string
-  transferCount: string
+  transferCount: number
   code: string
 }
 
 export interface IItem {
   id: string
-  price: string
+  price: number
   companyName: string
+  transferCountMax: number
   flights: IFlight[]
 }
 
